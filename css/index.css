@@ -1,0 +1,33 @@
+span#case_count {
+	color: red;
+}
+
+
+.line {
+	fill: none;
+	stroke: #ee3333;
+	stroke-width: 3;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+.axis text {
+	font-size: 10px;
+}
+
+.label {
+	font-weight: bolder;
+}
+
+div.tooltip {
+	line-height: 1;
+	padding: 6px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	border-radius: 4px;
+	font-size: 12px;
+}

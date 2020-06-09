@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2020PB Statistics</title>
+	<script type="application/javascript" src="javascript/index.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://d3js.org/d3-array.v2.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+
+<div class="container-fluid">
+	<div class="col-sm-12 col-md-6 offset-md-3">
+		<h1 class="text-center">Statistics on Police Brutality During the 2020 George Floyd Protests</h1>
+		<p class="text-center"><a href="https://github.com/2020PB/police-brutality">Data organized on github.</a></p>
+		<br/>
+	</div>
+	<div class="col-sm-12 col-md-6 offset-md-3">
+		<h1 class="text-center"><span id="case_count">0</span> documented incidents</h1>
+		<h1 class="text-center">in <span id="state_count">0</span> states and <span id="city_count">0</span> cities</h1>
+		<h1 class="text-center">over <span id="date_count">0</span> days.</h1>
+	</div>
+	<div class="col-sm-12 col-md-6 offset-md-3">
+		<svg width="600" height="400" id="map_svg"></svg>
+	</div>
+	<div class="col-sm-12 col-md-6 offset-md-3">
+
+		<h2 class="text-center">Number of Incidents over Time</h2>
+		<svg width="600" height="400" id="time_series_svg"></svg>
+	</div>
+</div>
+</body>
+</html>
